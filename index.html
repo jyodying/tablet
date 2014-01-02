@@ -2,73 +2,82 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
 <head>
 
-	<!-- Basic Page Needs
+<!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+<meta charset="utf-8">
+<title>Cats Ahoy!</title>
+<meta name="description" content="Cats Ahoy!">
+<meta name="author" content="Jedsada Yodying">
 
-	<!-- Mobile Specific Metas
+<!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/style.css">
 
-	<!--[if lt IE 9]>
+<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
+<script type="text/javascript" src="js/modernizr.js"></script>
 </head>
 <body>
 
-
-
-	<!-- Primary Page Layout
+<!-- Primary Page Layout
 	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="container">
-		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Skeleton</h1>
-			<h5>Version 1.2</h5>
-			<hr />
-		</div>
-		<div class="one-third column">
-			<h3>About Skeleton?</h3>
-			<p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
-		</div>
-		<div class="one-third column">
-			<h3>Three Core Principles</h3>
-			<p>Skeleton is built on three core principles:</p>
-			<ul class="square">
-				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
-				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
-				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
-			</ul>
-		</div>
-		<div class="one-third column">
-			<h3>Docs &amp; Support</h3>
-			<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
-		</div>
-
-	</div><!-- container -->
-
+<div class="container">
+  <header>
+    <h1 class="remove-bottom eleven columns">Cats Ahoy!</h1>
+    <form action="" class="five columns" id="search">
+      <input type="text" value="Search" onFocus="if (this.value=='Search') { this.value = '' } else if (this.value=='') { this.value='Search' }" onBlur="if (this.value=='Search') { this.value = '' } else if (this.value=='') { this.value='Search' }" />
+      <input type="submit" value="Go!" />
+    </form>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#" title="Blog">Blog</a></li>
+      <li><a href="#" title="Store">Store</a></li>
+      <li><a href="#" title="Jobs">Jobs</a></li>
+      <li><a href="#" title="Contact">Contact</a></li>
+    </ul>
+  </nav>
+  <article class="column">
+    <div class="dates"><span class="date">16</span><span class="month">Mar</span></div>
+    <h2>Cutest Kitteh Evah!</h2>
+    <h3>And so much personality, too!</h3>
+    <h4>by Tom Wolfe</h4>
+    <section>
+      <div class="img-holder"><img src="images/j-begs1.jpg" width="328" height="400" alt="Cutest Kitteh Evah!" /><span class="img-caption">So cute!</span></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut felis lorem. Quisque odio lectus, venenatis at ultricies at, eleifend at dui. Nam dignissim dui vitae tincidunt laoreet. Mauris tristique magna est, vel placerat massa rhoncus sed. Ut fringilla leo id quam elementum imperdiet. Nam ac leo urna. Etiam quis accumsan purus. Pellentesque ut mi aliquam dui dictum iaculis eget sed nulla. Mauris ac ligula imperdiet, venenatis sapien quis, tincidunt neque. Cras imperdiet arcu ac erat lobortis, vel dignissim urna luctus. Etiam quam nisi, feugiat non ante eu, hendrerit venenatis ante.</p>
+      <p>Morbi orci augue, adipiscing ac libero non, faucibus ultricies mi. Morbi sit amet ipsum sit amet nulla malesuada ornare. Maecenas commodo porttitor risus, ut volutpat mi aliquet non. In sodales placerat odio nec pretium. Suspendisse potenti. Aenean pellentesque pretium ante id aliquet. Phasellus malesuada lectus ut gravida venenatis. Etiam id nunc imperdiet, elementum nibh in, elementum ipsum. Nam sed tellus rhoncus, placerat urna sed, tempor urna. Etiam at leo at leo interdum ullamcorper vitae in quam. <strong>Mauris gravida dictum sem.</strong> Maecenas tincidunt et enim at dictum.</p>
+      <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis interdum, augue in tempor dictum, turpis est vehicula diam, et molestie nisl odio non dolor. Aliquam at scelerisque tellus. Ut felis mi, vehicula a dignissim sed, rutrum a lectus. Sed in mi vehicula, ullamcorper tellus at, rutrum libero. Vestibulum egestas, ante sagittis dapibus porta, augue erat aliquet neque, quis sodales arcu diam ut lacus. Phasellus sed enim vitae urna fringilla commodo et eu ligula. In hac habitasse platea dictumst. Phasellus quis libero eleifend, tempor mi posuere, tempor ipsum. Integer dapibus risus in mollis iaculis. In imperdiet libero eget faucibus aliquam. Nullam congue nisl nec est sollicitudin, eget sollicitudin dui viverra. Ut ultrices urna nec scelerisque venenatis.</p>
+      <!--    <p>Curabitur bibendum ipsum libero, a laoreet augue feugiat scelerisque. Mauris eros nunc, tempus in interdum eu, interdum tincidunt ligula. Morbi vel gravida quam. Fusce rhoncus sapien ac erat feugiat semper. Pellentesque ornare lorem purus, et tristique sapien mollis quis. Nunc vulputate ligula sed lectus semper vestibulum. Nunc vel porttitor erat. Praesent semper, arcu a ullamcorper cursus, turpis tellus faucibus nunc, quis cursus nunc nibh pellentesque orci. Nullam pellentesque enim vitae mi faucibus, ac egestas nibh luctus. Nam vel pharetra nunc. Phasellus in dui lacus. Integer laoreet magna a lectus gravida molestie.</p>
+    <p>Nullam eleifend libero sed dui tempus, sed interdum augue hendrerit. Nullam ante elit, eleifend convallis elit a, euismod sollicitudin arcu. Donec vitae ipsum egestas, interdum velit at, scelerisque leo. Ut feugiat eros libero, nec cursus dolor feugiat ac. Mauris tempus vulputate tortor sed iaculis. Cras at auctor mi. Donec erat eros, fermentum volutpat vulputate ut, adipiscing ac libero. Etiam dignissim orci eget leo scelerisque mollis.</p>
+--> </section>
+  </article>
+  <aside class="one-third column">
+    <h3>Notices</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum lectus. Morbi nulla turpis, viverra eu risus id, euismod pulvinar arcu. Etiam sapien lectus, sagittis et tristique vitae, adipiscing sed diam. Proin ornare interdum sagittis. </p>
+    <h3>Events</h3>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum lectus. Morbi nulla turpis, viverra eu risus id, euismod pulvinar arcu. Etiam sapien lectus, sagittis et tristique vitae, adipiscing sed diam. Proin ornare interdum sagittis. </li>
+      <li>Vestibulum laoreet pulvinar libero, et vehicula dolor blandit et. Vestibulum sed luctus diam. Donec posuere elementum magna, eu congue est accumsan volutpat. Nulla vitae augue nunc. Donec luctus justo massa. Mauris hendrerit porta leo nec eleifend. </li>
+    </ul>
+    <h3>Et Cetera</h3>
+    <p> Vestibulum laoreet pulvinar libero, et vehicula dolor blandit et. Vestibulum sed luctus diam. Donec posuere elementum magna, eu congue est accumsan volutpat. Nulla vitae augue nunc. Donec luctus justo massa. Mauris hendrerit porta leo nec eleifend.</p>
+  </aside>
+  <footer>&copy;2014 All Rights Reserved.</footer>
+</div>
+<!-- container --> 
 
 <!-- End Document
 ================================================== -->

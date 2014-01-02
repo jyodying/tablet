@@ -67,6 +67,9 @@ article h3 {
 article h4 {
 	font: 21px/30px Arial, sans-serif;
 }
+h4 .author {
+	text-transform:capitalize
+}
 article .dates {
 	color:white;
 	float:left;
@@ -79,6 +82,8 @@ article .dates {
 	background: -o-linear-gradient(#a6a6a6, #808000); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#a6a6a6, #808000); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#a6a6a6, #808000); /* Standard syntax */
+	background-color:#808000\9;
+	*background-color:#808000;
 	border-radius:4px;
 }
 article .date {
@@ -97,7 +102,11 @@ article section {
 article p {
 	font:12px Verdana, sans-serif
 }
-
+article section .img-holder+p:first-line {
+	overflow: visible;
+	width:1000px;
+	display: inline-block;
+}
 .img-holder {
 	float:right;
 	width:150px;
